@@ -4,7 +4,7 @@
   "description": "task 3 adding 5 routes",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
     "nodemon": "^2.0.15"
   },
   "devDependencies": {
-    "antd": "^4.19.3"
+    "antd": "^4.19.3",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
   }
 }
